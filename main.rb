@@ -13,11 +13,11 @@ else
 end
 
 if salary <= 10000
-  philhealth = 400.0
+  philhealth = 200.0
 elsif salary < 80000
-  philhealth = salary*0.04
+  philhealth = salary*0.02
 else
-  philhealth = 3200.0
+  philhealth = 1600.0
 end
 
 deductions = sss + pagibig + philhealth
