@@ -8,8 +8,10 @@ sss += temp*22.5
 
 if salary <= 1500
   pagibig = 0.01*salary
-else
+elsif salary <= 5000
   pagibig = 0.02*salary
+else
+  pagibig = 100
 end
 
 if salary <= 10000
