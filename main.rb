@@ -1,3 +1,9 @@
+=begin
+  Names: CUSTER, Mark John T. DE RAMOS, Ghrazielle Rei A. LARRAQUEL, Reign Elaiza D. TAN, Jose Tristan T.
+  Language: Ruby
+  Paradigm: Procedural
+=end
+
 puts "Input the monthly salary in pesos."
 salary = gets.chomp.to_f
 
